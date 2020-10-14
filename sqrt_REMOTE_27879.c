@@ -35,8 +35,7 @@ int main(int argc, char* argv[]) {
 	}
 	else
 	{
-		printf("Invalid Input, only integer input allowed!\n\n");
-
+		printf("Invalid Input!\n\n");
 	}
 	return(0);
 

@@ -35,8 +35,11 @@ int main(int argc, char* argv[]) {
 	}
 	else
 	{
-		printf("Invalid Input, only integer input allowed!\n\n");
-
+<<<<<<< HEAD
+		printf("Invalid Input, only integer input allowed!");
+=======
+		printf("Invalid Input!\n\n");
+>>>>>>> br_negativeSupport
 	}
 	return(0);
 
