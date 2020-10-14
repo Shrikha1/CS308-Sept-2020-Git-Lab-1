@@ -21,21 +21,21 @@ int check_input(char * s){
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("NEGSUPPORT: Usage: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 	if(check_input(argv[1]))
 	{
 		int input = atoi(argv[1]);
 		if(input<0)
-			printf("NEGSUPPORT: Sqrt of %d is %fi\n",input,sqrt((input*-1)));
+			printf("DEBUG: Sqrt of %d is %fi\n",input,sqrt((input*-1)));
 		else
-			printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
-		printf("NEGSUPPORT: End of program. Exiting.");
+			printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
+		printf("DEBUG: End of program. Exiting.");
 	}
 	else
 	{
-		printf("NEGSUPPORT: Invalid Input!\n\n");
+		printf("DEBUG: Invalid Input!\n\n");
 	}
 	return(0);
 
