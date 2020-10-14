@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
 	}
 	else
 	{
-		printf("Invalid Input!");
+		printf("Invalid Input!\n\n");
 	}
 	return(0);
 
